@@ -2,18 +2,10 @@
  * ============================================================
  * JML New Hire Onboarding — Auth0 Action
  * ============================================================
- *
+
  * Trigger:  Post User Registration
  * Runtime:  Node.js 22
  * Module:   axios 0.27.2 (add via Modules panel)
- *
- * What this does:
- *   1. Reads new user's department from user_metadata
- *   2. Gets a Management API token (client_credentials)
- *   3. Assigns roles based on department (Least Privilege)
- *   4. Sends Slack notification to #iam-alerts
- *   5. Writes audit row to Google Sheets
- *   6. Logs completion — every step has error handling
  *
  * Required Secrets (add via 🔑 Secrets panel):
  *   AUTH0_DOMAIN          — dev-xxxx.us.auth0.com
