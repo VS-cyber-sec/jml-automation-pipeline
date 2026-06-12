@@ -185,25 +185,3 @@ When you move to Okta Workflows in a real job:
 The **architecture**, **logic**, and **concepts** you built here
 are 100% identical. Okta Workflows just gives you a visual
 interface for the same operations your JavaScript code performs.
-
----
-
-## Interview Answer
-
-When asked: *"Do you have Okta Workflows experience?"*
-
-> "I built a complete JML automation pipeline using Auth0 Actions,
-> which runs on the Okta platform — Auth0 was acquired by Okta in
-> 2021. The architecture is identical to Okta Workflows: a Post User
-> Registration trigger fires the flow, If/Else logic routes by
-> department attribute, the Management API assigns role-based access
-> enforcing Least Privilege, Slack webhooks notify the IAM team, and
-> Google Sheets logs every provisioning event for SOC 2 compliance.
->
-> I debugged real production-like issues: a 401 from using a web app
-> instead of an M2M app for client_credentials flow, a missing axios
-> module dependency, and a 404 from using a synthetic user ID in the
-> test payload. I understand both the code-level mechanics and the
-> visual workflow equivalent. I can transfer to Okta Workflows
-> directly — the concepts are identical, the interface is just visual
-> instead of code."
