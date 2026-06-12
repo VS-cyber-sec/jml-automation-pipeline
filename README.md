@@ -19,7 +19,6 @@
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Setup Guide](#-setup-guide)
-- [Configuration](#-configuration)
 - [Testing](#-testing)
 
 
@@ -331,13 +330,6 @@ Paste code from `src/actions/jml-new-hire-action.js` → **Deploy**.
 **Actions → Flows → Post User Registration**
 
 Drag **JML New Hire Onboarding** between Start and Complete → **Apply**.
-
----
-
-## 🔧 Configuration
-
-
-> ⚠️ **Never commit real secrets.** All secrets are stored in Auth0's encrypted Secrets store and accessed via `event.secrets`.
 
 ---
 
