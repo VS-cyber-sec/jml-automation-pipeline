@@ -1,0 +1,19 @@
+# ── Secrets — NEVER commit these ─────────────────────────────
+.env
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# ── Node.js ───────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor files ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp

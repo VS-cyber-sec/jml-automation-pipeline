@@ -1,0 +1,25 @@
+{
+  "_comment": "Use this payload in the Auth0 Action test panel (▶ Run button)",
+  "_important": "Replace user_id with a REAL user ID from Auth0 Dashboard → Users → click user → copy User ID",
+  "_note": "The fake ID 'auth0|test123' causes a 404 on role assignment — user must exist in directory",
+
+  "user": {
+    "user_id": "auth0|REPLACE_WITH_REAL_USER_ID",
+    "email": "jane.engineer@example.com",
+    "given_name": "Jane",
+    "family_name": "Engineer",
+    "name": "Jane Engineer",
+    "user_metadata": {
+      "department": "Engineering",
+      "jobTitle": "Software Engineer"
+    },
+    "app_metadata": {},
+    "identities": [
+      {
+        "connection": "Username-Password-Authentication",
+        "provider": "auth0",
+        "isSocial": false
+      }
+    ]
+  }
+}

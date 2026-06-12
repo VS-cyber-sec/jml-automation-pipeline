@@ -1,0 +1,6 @@
+Timestamp,Event,User Email,Department,Roles Assigned,Status
+2026-05-27T09:30:00.000Z,New Hire Onboarded,jane.engineer@example.com,Engineering,"all-employees, engineering",Success
+2026-05-27T10:15:00.000Z,New Hire Onboarded,rahul.hr@example.com,HR,"all-employees, hr-finance",Success
+2026-05-27T11:00:00.000Z,New Hire Onboarded,priya.sales@example.com,Sales,all-employees,Success
+2026-05-27T14:22:00.000Z,New Hire Onboarded,amit.finance@example.com,Finance,"all-employees, hr-finance",Success
+2026-05-27T15:45:00.000Z,New Hire Onboarded,sara.devops@example.com,Engineering,"all-employees, engineering",Success
