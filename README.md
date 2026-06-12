@@ -336,26 +336,6 @@ Drag **JML New Hire Onboarding** between Start and Complete → **Apply**.
 
 ## 🔧 Configuration
 
-### .env.example
-
-```bash
-# Auth0 Configuration
-AUTH0_DOMAIN=dev-xxxx.us.auth0.com
-MGMT_CLIENT_ID=your_m2m_client_id
-MGMT_CLIENT_SECRET=your_m2m_client_secret
-
-# Role IDs
-ROLE_ID_ALL_EMPLOYEES=rol_XXXXXXXXXX
-ROLE_ID_ENGINEERING=rol_XXXXXXXXXX
-ROLE_ID_HR_FINANCE=rol_XXXXXXXXXX
-
-# Slack
-SLACK_WEBHOOK_URL=https://hooks.slack.com/services/T00/B00/XXXXXXXX
-
-# Google Sheets
-GOOGLE_SHEET_ID=your_spreadsheet_id
-GOOGLE_API_KEY=your_google_api_key
-```
 
 > ⚠️ **Never commit real secrets.** All secrets are stored in Auth0's encrypted Secrets store and accessed via `event.secrets`.
 
